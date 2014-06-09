@@ -1,0 +1,1 @@
+PODS_MIHGRADIENTVIEW_OTHER_LDFLAGS = -framework QuartzCore
