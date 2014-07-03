@@ -33,7 +33,7 @@
 - (NSString *)endpoint
 {
 //    return @"http://www.appsworld.crealogica.eu/webServices/getAppById.php";
-    return @"http://diana4love.com/AppsWorld/appsworld.json";
+    return @"http://diana4love.com/AppsWorld/appsworld4.json";
 }
 
 - (id)responseObjectFromServiceResponse:(id)serviceResponse

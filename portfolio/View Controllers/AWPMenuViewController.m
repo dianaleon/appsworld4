@@ -28,22 +28,14 @@
     self.menu = pfMan.portfolio.menu;
     //self.view.backgroundColor = [UIColor colorWithHexString:self.menu. andAlpha:1.0];
 	
-    //HEADER
-    self.bgHeader.startPoint = CGPointMake(0.0, 0.0);
-    self.bgHeader.endPoint = CGPointMake(1.0, 1.0);
-    //gradiente proviene del json
-    //!!//theme->background
-    self.bgHeader.startColor = [UIColor colorWithHexString: pfMan.portfolio.theme.background.bgStartColor andAlpha:1];
-    self.bgHeader.endColor = [UIColor colorWithHexString: pfMan.portfolio.theme.background.bgEndColor  andAlpha:1];
-    //TITULO Y SUBTITULO ??????
-    self.tituloApp.text = self.menu.title;
-    self.subtituloApp.text = self.menu.subtitle;
+    //self.imageHome = self.menu.title;
     
-    [self.tituloApp setFont:[UIFont fontWithName:@"CopperplateGothicStd-33BC" size:24]];
-    self.tituloApp.textColor = [UIColor colorWithHexString: @"FFFFFF"  andAlpha:1];
-    [self.subtituloApp setFont:[UIFont fontWithName:@"CopperplateGothicStd-29AB" size:14]];
-    self.subtituloApp.textColor = [UIColor colorWithHexString: @"000000"  andAlpha:1];
     
+    //GUILLE hay que poner la imagen del titulo "menu": { "home_img": "....",!!!!!
+    //self.imageHome = self.menu.home_img;
+    //GUILLE hay que poner la imagen del titulo "menu": {  "title_img": "....",!!!!
+    //self.imageTitle = self.menu.title_img;
+   
     
     
     

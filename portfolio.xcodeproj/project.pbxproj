@@ -153,6 +153,8 @@
 		EE15321618F3290200A8B4A0 /* CopperplateGothicStd29AB.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE15321518F3290200A8B4A0 /* CopperplateGothicStd29AB.otf */; };
 		EE3F47EF1901D94A0066367D /* CopperplateGothicStd33BC.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE3F47EE1901D9260066367D /* CopperplateGothicStd33BC.otf */; };
 		EE525FA718F74C67008BC13C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE525FA618F74C66008BC13C /* QuartzCore.framework */; };
+		EE5ADB79194689F1008B9899 /* nombreresto.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5ADB78194689F1008B9899 /* nombreresto.png */; };
+		EE5ADB7B194689FC008B9899 /* resto.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5ADB7A194689FC008B9899 /* resto.png */; };
 		EE772FD918E9AB5700826D6D /* Oficce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE772FD818E9AB5700826D6D /* Oficce.jpg */; };
 		EE772FDC18EA1A0000826D6D /* AWPHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE772FDB18EA1A0000826D6D /* AWPHomePageViewController.m */; };
 		EE772FDE18EA602E00826D6D /* fotito3.png in Resources */ = {isa = PBXBuildFile; fileRef = EE772FDD18EA602D00826D6D /* fotito3.png */; };
@@ -303,6 +305,8 @@
 		EE15321518F3290200A8B4A0 /* CopperplateGothicStd29AB.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CopperplateGothicStd29AB.otf; sourceTree = "<group>"; };
 		EE3F47EE1901D9260066367D /* CopperplateGothicStd33BC.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CopperplateGothicStd33BC.otf; sourceTree = "<group>"; };
 		EE525FA618F74C66008BC13C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EE5ADB78194689F1008B9899 /* nombreresto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nombreresto.png; sourceTree = "<group>"; };
+		EE5ADB7A194689FC008B9899 /* resto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resto.png; sourceTree = "<group>"; };
 		EE772FD818E9AB5700826D6D /* Oficce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Oficce.jpg; sourceTree = "<group>"; };
 		EE772FDA18EA1A0000826D6D /* AWPHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWPHomePageViewController.h; sourceTree = "<group>"; };
 		EE772FDB18EA1A0000826D6D /* AWPHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWPHomePageViewController.m; sourceTree = "<group>"; };
@@ -631,6 +635,8 @@
 			children = (
 				EE03E37619463103000C76A9 /* menu.png */,
 				EE03E3781946337A000C76A9 /* home.png */,
+				EE5ADB78194689F1008B9899 /* nombreresto.png */,
+				EE5ADB7A194689FC008B9899 /* resto.png */,
 				EE772FE118EA66E100826D6D /* fb_hover.png */,
 				EE772FE218EA66E100826D6D /* fb.png */,
 				EE772FE318EA66E100826D6D /* g+_hover.png */,
@@ -719,7 +725,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = AWP;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Guillermo Chiacchio";
 				TargetAttributes = {
 					2B47A8B31924EDBC00FD82E4 = {
@@ -789,6 +795,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE3F47EF1901D94A0066367D /* CopperplateGothicStd33BC.otf in Resources */,
+				EE5ADB7B194689FC008B9899 /* resto.png in Resources */,
 				EE15321618F3290200A8B4A0 /* CopperplateGothicStd29AB.otf in Resources */,
 				2B2855E018AEA1F1005C977C /* home_img.jpg in Resources */,
 				2B804D9918AD660C0028A8A4 /* bg_points.png in Resources */,
@@ -802,6 +809,7 @@
 				EE772FE018EA630700826D6D /* LAW_01.jpg in Resources */,
 				EE772FED18EA66E400826D6D /* fb_hover.png in Resources */,
 				EE772FEE18EA66E400826D6D /* fb.png in Resources */,
+				EE5ADB79194689F1008B9899 /* nombreresto.png in Resources */,
 				EE772FEF18EA66E400826D6D /* g+_hover.png in Resources */,
 				EE772FF018EA66E400826D6D /* g+.png in Resources */,
 				EE03E3791946337A000C76A9 /* home.png in Resources */,
@@ -1093,7 +1101,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1132,7 +1139,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1200,7 +1206,6 @@
 		2B7C8CB918A3D34E0010628F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/portfolio.app/portfolio";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -1223,7 +1228,6 @@
 		2B7C8CBA18A3D34E0010628F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/portfolio.app/portfolio";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

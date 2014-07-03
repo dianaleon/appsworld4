@@ -10,6 +10,8 @@
 #import "AWPPageViewController.h"
 #import "MIHGradientView.h"
 @interface AWPMenuViewController : AWPPageViewController <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@property (weak, nonatomic) IBOutlet UIImageView *imageTitle;
+@property (weak, nonatomic) IBOutlet UIImageView *imageHome;
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 @property (weak, nonatomic) IBOutlet UILabel *tituloApp;
 @property (weak, nonatomic) IBOutlet MIHGradientView *bgHeader;

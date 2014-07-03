@@ -112,8 +112,8 @@
     
     self.bgMenu.startPoint = CGPointMake(0.0, 0.0);
     self.bgMenu.endPoint = CGPointMake(1.0, 1.0);
-    self.bgMenu.startColor =[UIColor colorWithHexString:@"775728" andAlpha:1 ];
-    self.bgMenu.endColor =[UIColor colorWithHexString:@"D0B36A"  andAlpha:1];
+    self.bgMenu.startColor =[UIColor colorWithHexString:@"1F1D1E" andAlpha:1 ];
+    self.bgMenu.endColor =[UIColor colorWithHexString:@"1F1D1E"  andAlpha:1];
     
     
 
