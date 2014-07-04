@@ -63,6 +63,7 @@
                     pageObject = [[AWPCatalogoPage alloc] initWithDictionary:pageDict];
                     break;
                 default:
+                    pageObject = nil;
                 break;
             }
             if (pageObject) {
@@ -72,6 +73,8 @@
                     {
                         [pagesMutable setObject:pageObject forKey:pageObject.pos];
                         [indices addObject:pageObject.pos];
+                    } else {
+                        NSLog(@"El viewcontroller no es del tipo AWPPageViewController: %@", pageObject.layout);
                     }
                 }
                 @catch (NSException *exception) {
